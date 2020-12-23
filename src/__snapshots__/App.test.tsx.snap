@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test '<App/> component. Renders <App/> component and equal with snapshot. 1`] = `
+<Row>
+  <Col
+    offset={8}
+    span={12}
+  >
+    <Space
+      direction="vertical"
+    >
+      <Card
+        style={
+          Object {
+            "width": 400,
+          }
+        }
+        title={
+          <Title
+            level={3}
+          >
+            WeatherApp
+          </Title>
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": 20,
+            }
+          }
+        >
+          <Memo() />
+        </div>
+        <DisplayData />
+      </Card>
+    </Space>
+  </Col>
+</Row>
+`;

@@ -21,3 +21,18 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+Будет удалено .eslintcache
+Будет удалено .idea/
+Будет удалено .idea/.gitignore
+Будет удалено .idea/codeStyles/
+Будет удалено .idea/inspectionProfiles/
+Будет удалено .idea/misc.xml
+Будет удалено .idea/modules.xml
+Будет удалено .idea/vcs.xml
+Будет удалено .idea/weather-app.iml
+Будет удалено src/Api/
+Будет удалено src/Components/
+Будет удалено src/Redux/
+Будет удалено src/Types/
+
+/src/react-app-env.d.ts

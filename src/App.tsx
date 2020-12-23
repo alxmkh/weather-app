@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "antd/dist/antd.css";
+import {Card, Col, Row, Space} from "antd";
+import { Complete } from './Components/InputData/InputData';
+import { DisplayData } from './Components/DisplayWeather/DisplayData';
+import Title from "antd/lib/typography/Title";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App: React.FC<any> = () => {
+    return (
+            <Row>
+                <Col span={12} offset={8}>
+                    <Space direction="vertical">
+                        <Card title={<Title level={3}>WeatherApp</Title>} style={{ width: 400}}>
+                            <div style={{paddingBottom:20}}>
+                                <Complete />
+                            </div>
+                            <DisplayData/>
+                        </Card>
+                    </Space>
+                </Col>
+            </Row>
+    );
 }
 
 export default App;
